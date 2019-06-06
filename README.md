@@ -1,8 +1,6 @@
 
 [![Build Status](https://dev.azure.com/kylerwilson/kylerwilson/_apis/build/status/kwilson77.CAir?branchName=master)](https://dev.azure.com/kylerwilson/kylerwilson/_build/latest?definitionId=1&branchName=master)
 
-MY ALTER CHANGE
-
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
