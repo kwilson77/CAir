@@ -1,6 +1,10 @@
 
 [![Build Status](https://dev.azure.com/kylerwilson/kylerwilson/_apis/build/status/kwilson77.CAir?branchName=master)](https://dev.azure.com/kylerwilson/kylerwilson/_build/latest?definitionId=1&branchName=master)
 
+Badge for Test Validation
+[![Build Status](https://dev.azure.com/kylerwilson/kylerwilson/_apis/build/status/kwilson77.testvalidation?branchName=master)](https://dev.azure.com/kylerwilson/kylerwilson/_build/latest?definitionId=3&branchName=master)
+
+
 Azure Richmond User Group Change
 
 # Microsoft.Github CI Demo
