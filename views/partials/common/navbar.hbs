@@ -11,11 +11,11 @@
                 <div class="col-12 col-md-7 col-lg-7 block-navbar-right">
                     <ul class="navbar-nav block-navbar-right-menu">
                         {{#each publicMenu}}
+                            <li class="nav-item block-navbar-right-menu-item">
+                                <a class="nav-link" href="">ENV:{{envname}} </a>
+                            </li>
                             <li class="nav-item block-navbar-right-menu-item {{#if active}}active{{/if}}">
                                 <a class="nav-link" href="{{url}}">{{text}}</a>
-                            </li>
-                            <li class="nav-item block-navbar-right-menu-item">
-                                <a class="nav-link" href="">KRW88 - {{envname}} </a>
                             </li>
                         {{/each}}
                         {{#if greeting}}

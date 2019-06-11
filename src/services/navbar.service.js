@@ -1,5 +1,5 @@
 
-const envname2 = process.env.COSMOS_DB_NAME;
+const envname2 = process.env.CLOUD_ENVIRONMENT;
 
 const publicMenu = [
     { url: '/book', text: 'NavbarMenu.Book', envname: envname2 }
