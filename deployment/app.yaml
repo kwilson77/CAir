@@ -2,3 +2,4 @@ runtime: nodejs10
 env_variables:
   COSMOS_DB_NAME: "githubci-db-contosoairkyle"
   COSMOS_DB_AUTH_KEY: "YjYMDsTYbwMvBppXp7mq7rJGdv0vFqtkvwfI8640mwd49gSACcSYKOKRaNVXgKK6W4SgvdLVspPEhBb7TNhiPw=="
+  CLOUD_ENVIRONMENT: "GCP"
