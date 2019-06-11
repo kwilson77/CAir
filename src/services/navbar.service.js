@@ -2,7 +2,7 @@
 const envname = process.env.COSMOS_DB_NAME;
 
 const publicMenu = [
-    { url: '/book', text: 'NavbarMenu.Book', env: '$envname'}
+    { url: '/book', text: 'NavbarMenu.Book', env: 'AZURE'}
 ];
 
 const securedMenu = [
