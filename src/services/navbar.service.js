@@ -1,5 +1,8 @@
+
+const envname2 = process.env.CLOUD_ENVIRONMENT;
+
 const publicMenu = [
-    { url: '/book', text: 'NavbarMenu.Book' }
+    { url: '/book', text: 'NavbarMenu.Book', envname: envname2 }
 ];
 
 const securedMenu = [

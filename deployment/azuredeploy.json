@@ -68,6 +68,10 @@
 							"value": "[listKeys(resourceId('Microsoft.DocumentDb/databaseAccounts', variables('comosdb_default_name')), '2015-04-08').primaryMasterKey]"
 						},
 						{
+							"name": "CLOUD_ENVIRONMENT",
+							"value": "Azure"
+						},
+						{
 							"name": "WEBSITE_NODE_DEFAULT_VERSION",
 							"value": "8.9.4"
 						}
