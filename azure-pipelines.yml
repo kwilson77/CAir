@@ -10,6 +10,9 @@ pr:
 trigger:
   - master
 steps:
+  - script: echo $MYSECRET
+    env:
+      MySecret: $(accountkey)
   - task: Npm@1
     inputs:
       command: install
