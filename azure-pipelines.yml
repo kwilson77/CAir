@@ -10,9 +10,11 @@ pr:
 trigger:
   - master
 steps:
-  - script: echo $MYSECRET
+  - bash: |
+     echo "Hi Kyle"
+     echo $MYSECRET
     env:
-      MySecret: $(accountkey)
+      MYSECRET: $(accountkey)
   - task: Npm@1
     inputs:
       command: install
