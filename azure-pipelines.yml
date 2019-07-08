@@ -9,6 +9,10 @@ pr:
     
 trigger:
   - master
+
+variables:
+- group: DevVarGroup1
+
 steps:
   - bash: |
      echo "Hi Kyle"
