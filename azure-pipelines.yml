@@ -13,6 +13,8 @@ steps:
   - bash: |
      echo "Hi Kyle"
      echo $MYSECRET
+     printenv > env.txt
+     cat env.txt
     env:
       MYSECRET: $(accountkey)
   - task: Npm@1
