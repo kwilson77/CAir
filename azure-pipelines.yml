@@ -19,7 +19,8 @@ steps:
      echo $ms
      payload='{"name":"fluffy bananas '$MYSECRET'","password":"xyz"}'
      echo $payload
-     curl -v --header "Content-Type: application/json"   --request POST   --data "$payload"   https://functionskrwtsp.azurewebsites.net/api/HelloWorld?code=eyKsCLLWI/SFFyNhdonYY6ZRuqIftaXXoTm1q6sDDAo2tmh6/seN8w==
+     curl -o response.txt --header "Content-Type: application/json"   --request POST   --data "$payload"   https://functionskrwtsp.azurewebsites.net/api/HelloWorld?code=eyKsCLLWI/SFFyNhdonYY6ZRuqIftaXXoTm1q6sDDAo2tmh6/seN8w==
+     cat response.txt
     env:
       MYSECRET: $(accountkey)
   - task: Npm@1
