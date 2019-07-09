@@ -21,6 +21,7 @@ steps:
      echo $payload
      curl -o response.txt --header "Content-Type: application/json"   --request POST   --data "$payload"   https://functionskrwtsp.azurewebsites.net/api/HelloWorld?code=eyKsCLLWI/SFFyNhdonYY6ZRuqIftaXXoTm1q6sDDAo2tmh6/seN8w==
      echo "post curl command"
+     ls
      cat response.txt
     env:
       MYSECRET: $(accountkey)
