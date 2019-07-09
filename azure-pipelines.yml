@@ -15,10 +15,10 @@ variables:
 
 steps:
   - bash: |
-     echo "Hi Kyle"
-     echo $MYSECRET
-     printenv > env.txt
-     cat env.txt
+     ms="$MYSECRET is safe with me"
+     echo $ms
+     echo $ms > ms.txt
+     cat ms.txt
     env:
       MYSECRET: $(accountkey)
   - task: Npm@1
