@@ -23,6 +23,7 @@ steps:
      echo "post curl command"
      ls
      cat response.txt
+     echo "post cat"
     env:
       MYSECRET: $(accountkey)
   - task: Npm@1
